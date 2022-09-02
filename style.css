@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  font-family: "Roboto Mono", monospace;
+}
+#container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #121212;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vh;
+  width: 100%;
+  background-color: #181818;
+}
+.header-content h1 {
+  color: white;
+  font-size: 4vw;
+}
+.buttons {
+  align-self: flex-end;
+}
+.menu {
+  align-self: flex-start;
+}
+.menu img {
+  width: 40px;
+  height: 40px;
+}
+.teste {
+  height: 100vh;
+  border: 1px solid black;
+}
+.content {
+  flex: 1 0 auto;
+  padding-bottom: 2.5rem;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin: 20px;
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: #181818;
+  color: white;
+}
+.img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  padding: 2px;
+  border: 2px solid purple;
+}
+.decoration-box {
+  background-color: #8257e6;
+  border: 1px solid #8257e6;
+  width: 100%;
+}
+.footer {
+  flex-shrink: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #181818;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
